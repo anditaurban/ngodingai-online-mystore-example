@@ -1,0 +1,28 @@
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f9fafb;
+      color: #1f2937;
+    }
+
+    /* Custom scrollbar for product grid */
+    .product-scroll::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .product-scroll::-webkit-scrollbar-thumb {
+      background-color: #4f46e5;
+      border-radius: 10px;
+    }
+
+    /* Hide scrollbar for all browsers */
+    .product-scroll {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+
+    .product-scroll::-webkit-scrollbar {
+      display: none;
+      /* Chrome, Safari, Opera*/
+    }
