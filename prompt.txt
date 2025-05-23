@@ -4,7 +4,7 @@ prompt chatGpt
 komponen website atau section untuk membuat website toko online yang menarik biasanya terdiri dari apa saja?
 buatkan wireframe nya sesuai spesifikasi yang disarankan (edit hasil wireframe bila perlu)
 
-lanjut  blackbox ai untuk pembuatan front-end yg lebih praktis
+lanjut blackbox ai untuk pembuatan front-end yg lebih praktis
 
 Prompt Blackbox AI
 konversikan wireframe online shop [sebutkan tokonya/jualan barang apa] berikut ke dalam website sungguhan lengkap dengan styling, foto dan kontennya (wirefeamenya diupload)
