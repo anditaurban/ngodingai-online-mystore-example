@@ -1,0 +1,40 @@
+Prompt FE Online store step
+
+prompt chatGpt
+komponen website atau section untuk membuat website toko online yang menarik biasanya terdiri dari apa saja?
+buatkan wireframe nya sesuai spesifikasi yang disarankan (edit hasil wireframe bila perlu)
+
+lanjut  blackbox ai untuk pembuatan front-end yg lebih praktis
+
+Prompt Blackbox AI
+konversikan wireframe online shop [sebutkan tokonya/jualan barang apa] berikut ke dalam website sungguhan lengkap dengan styling, foto dan kontennya (wirefeamenya diupload)
+
+Jika belum sesuai insert prompt kembali dengan perintah misal:
+-ubahlah menjadi website sungguhan
+-terapkan styling yang sangant menarik
+-cantumkan harga pada produk, gambar pada hero section supaya lebih menarik
+-ubah section testimonial menjadi lebih sungguhan, tambahkan beberapa slide dan foto orangnya
+-buat lebih responsive
+-tambahkan background gambar yang mewakili tema (atau sebutkan gambar apa yang diinginkan) untuk bagian hero section
+-buatlah konten pada section feature products lebih proposional padding atau marginnya
+-perbesar ukuran komponen promo
+-tambahkan logo-logo social media pada bagian footer dan ubah bagian newslater menjadi pertanyaan ke whatssapp
+-tambahkan sticky flying button wa untuk CTA
+dll.
+
+Jika sudah cukup, lanjut ke Backend
+
+Backend Prompt di ChatGPT
+-tambahkan alert yg menarik jika berhasil add to cart untuk (copy section productnya)
+-jumlah item yang berhasil masuk ke cart dan muncul di element ini (copy element html cart)
+-ketika click cart munculkan produk yang di add to cart dalam bentuk pop up modal
+-tambahkan quantity dan harga juga subtotal pada fungsi showCart
+-tambahkan tombol remove itemnya
+-tambahkan fungsi clear cart
+-tambahkan fungsi checkout, tampilkan invoice dan datanya di simpan ke spreadsheet
+-jika ada bugs, update script checkout agar tidak kena cors dan deploy apps script ulang (jika diperlukan)
+-buatkan checkout php version
+-buatkan checkout node js version
+-cara push source code ke repository github
+-Vercel (untuk backend) deploy
+
